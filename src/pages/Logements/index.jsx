@@ -1,4 +1,4 @@
-function Apropos() {
+function Logements() {
     return (
         <div>
             <h1>Questionnaire 🧮</h1>
@@ -6,4 +6,4 @@ function Apropos() {
     )
 }
 
-export default Apropos;
+export default Logements;

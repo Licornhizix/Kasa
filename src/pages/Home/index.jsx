@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src=''/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,9 +17,10 @@ function App() {
         >
           Learn React
         </a>
+        
       </header>
     </div>
   );
 }
 
-export default App;
+export default Home
