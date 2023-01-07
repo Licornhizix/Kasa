@@ -6,9 +6,9 @@ import Apropos from './pages/Apropos';
 import Home from './pages/Home';
 import Logements from './pages/Logements';
 import Error from './pages/Error';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,11 +21,8 @@ root.render(
       <Route path = "logement/:id" element ={<Logements />} />
       <Route path = "*" element ={<Error />} /> 
     </Routes>
+    <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

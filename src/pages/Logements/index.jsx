@@ -1,7 +1,7 @@
 function Logements() {
     return (
         <div>
-            <h1>Questionnaire 🧮</h1>
+            <h1>Molly 🧮</h1>
         </div>
     )
 }
