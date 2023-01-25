@@ -21,9 +21,10 @@
 .card p {
     position: absolute;
     font-size: 20px;
+    font-weight: 700;
     left: 20px;
     bottom: 23px;
-    color: white;
+    color: #FF6060;
 }
 
 .card img {

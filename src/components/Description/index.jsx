@@ -4,6 +4,7 @@ import Host from "./Host";
 import Rate from "./Rate";
 import "../styles/description.css"
 
+
 function Description ({
     title, description, host, rating, location, equipments, tags,
 }) {
