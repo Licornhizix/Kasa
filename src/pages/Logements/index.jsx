@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/Header";
 import headerLogement from "../../assets/headerLogement.png";
-import "../../styles/logement.css"
-import "../../styles/collapse.css"
+import "../../styles/logement.css";
+import "../../styles/collapse.css";
 
 import Card from "../../components/Card";
 

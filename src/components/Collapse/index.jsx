@@ -12,7 +12,7 @@ function Collapse ( { title, content, open } ) {
                 <img className="up" 
                 src = {up} 
                 alt = "contenu caché" 
-                onClick={() => setActive (false)}/>
+                />
             </div>
             {typeof content === "object" ? intoArray(content) : <p> {content} </p> }
         </div>
@@ -23,7 +23,7 @@ function Collapse ( { title, content, open } ) {
                 <img className="down"
                 src = {down}
                 alt = "contenu affiché" 
-                />
+                 />
             </div>
         </div>
     )

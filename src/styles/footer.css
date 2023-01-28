@@ -7,8 +7,9 @@
     text-align: center;
     color: white;
     background-color: black;
-    height: 270px;
+    height: 200px;
     margin: auto;
+   
     
 }
 
@@ -23,4 +24,12 @@
     text-align: center;
     font-weight: 500;
     color: white;
+}
+
+@media (min-height: 1000px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+
 }
