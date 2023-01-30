@@ -1,19 +1,17 @@
 import React from "react";
-import Header from "../../components/Header";
-import headerLogement from "../../assets/headerLogement.png";
+//import { Link } from "react-router-dom";
 import "../../styles/logement.css";
-import "../../styles/collapse.css";
+import Pictureslide from "../../components/Pictureslide";
 
-import Card from "../../components/Card";
+
+
 
 function Logements () {
     return (
         <div className="location">
-            <Header
-            imageHome = {headerLogement}
-            />
-            <Card />
-        </div>
+            <Pictureslide/>
+            <h1>Ksenia</h1>
+        </div> 
     )
 }
 

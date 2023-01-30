@@ -7,9 +7,9 @@ import "../../styles/logement.css"
 import "../../styles/collapse.css"
 
 
-function Logements() {
+function Pictureslide() {
     return (
     <h1>nouvelle page logement</h1>)
 }
 
-export default Logements;
+export default Pictureslide;
