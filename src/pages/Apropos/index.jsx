@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../../components/Header";
 import headerApropos from "../../assets/headerApropos.png";
 import Collapse from "../../components/Collapse";
-//import { Link } from "react-router-dom";
 import JSON from "../../JSON/Apropos.json";
 import "../../styles/apropos.css"
 import "../../styles/collapse.css";
