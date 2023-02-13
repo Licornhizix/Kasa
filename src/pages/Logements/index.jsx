@@ -21,16 +21,19 @@ return (
             <Pictureslide/>
             <Description />
             <Tags/> 
+            <div className="descEquip">
+            <section className="desc">
             <Collapse title = {"Description"} content = { monLogement.description } />
+            </section>
+            <section className="equip">
             <Collapse title = {"Equipements"} content = { monLogement.equipments.map((equip) => (
-    
-    <li key={equip}>{equip}</li>
-    
-)) } />
-
-
-            
-                </div> 
+            <li key={equip}>{equip}</li>
+)
+) 
+} />
+            </section>
+            </div>
+        </div> 
         )
 }
 

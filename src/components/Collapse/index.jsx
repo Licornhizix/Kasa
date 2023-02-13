@@ -1,6 +1,8 @@
 import React, { useState }from "react";
 import up from "../../assets/vectorUp.png";
 import down from "../../assets/vectorDown.png";
+import "../../styles/collapse.css";
+
 
 
 function Collapse ( { title, content, open } ) {

@@ -1,3 +1,7 @@
 07/02/2023> Tenter un console.log sur logement.json pour isoler les tags>ok
-13/02/2023> Mettre en place les 2 collapses sur la page logement
+13/02/2023> Mettre en place les 2 collapses sur la page logement>
+14/02/2023> Ajouter le rate
+15/02/2023>Ajouter l'image avec le rate
+16/02/2023>carroussel
+
 

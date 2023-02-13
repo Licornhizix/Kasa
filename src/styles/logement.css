@@ -20,6 +20,17 @@ margin-top: 200px;
 
 }
 
+.descEquip {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desc, .equip {
+    width: 45%;
+}
+
 
 
 @media (max-width: 820px) {
