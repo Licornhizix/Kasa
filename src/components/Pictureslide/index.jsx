@@ -5,11 +5,20 @@ import React from "react";
 //import JSON from "../../JSON/Logement.json";
 import "../../styles/logement.css"
 import "../../styles/collapse.css"
+import "../../styles/pictureslide.css";
 
 
 function Pictureslide() {
     return (
-    <h1>nouvelle page logement</h1>)
+        <div className="pictureslide"
+            style = {{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url()`,
+            }}
+        >
+            <div className="welcomeImage">{}
+            </div>
+        </div>
+    )
 }
 
 export default Pictureslide;

@@ -1,6 +1,7 @@
 
 
-.descEquip {
+.pagedescription {
+    margin-top: 50px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -8,21 +9,45 @@
 
 }
 
+.card p {
+left: 0;
+
+}
+
+.flat {
+display: flex;
+flex-direction: column;
+
+}
+
 .desc, .equip {
     width: 45%;
 }
 
-.card1 .title {
+.title {
     font-size: 36px;
-    font-weight: 500 ;
+    font-weight: 500;
     margin-top: 20px;
     color: #FF6060;
+    
 }
 
-.card1 .locate {
-    margin-top: 10px;
+.location {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
     color: #FF6060;
+    
 }
+
+Link{
+
+        text-decoration:none;
+
+}
+
+
 
 .card2 {
     display: flex;

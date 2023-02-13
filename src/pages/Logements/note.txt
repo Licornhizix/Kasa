@@ -1,0 +1,2 @@
+07/02/2023> Tenter un console.log sur logement.json pour isoler les tags
+

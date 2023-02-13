@@ -1,40 +1,34 @@
-import Collapse from "./Collapse";
-import Tag from "./Tag";
-import Host from "./Host";
-import Rate from "./Rate";
-import "../styles/description.css"
+import { useParams } from "react-router-dom";
+import "../../styles/logement.css";
+import "../../styles/description.css"
+import Tags from "../../components/Tags";
 
 
-function Description ({
-    title, description, host, rating, location, equipments, tags,
-}) {
-    return (
-        <div className="info">
-            <div className="info1"> 
-                <div className="card1">
-                    <h1 className="title">{title}</h1>
-                    <p className="locate">{location}</p>
-                    <Tag tags={tags} />
-                </div>
-                <div className="card2">
-                    <Host host = {host} />
-                    <Rate rate = {rating} />
-                </div>
+import JSONLogement from "../../JSON/Logement.json";
+
+function Description () {
+const idLogement = useParams();
+console.log(idLogement.id);
+const monLogement = JSONLogement.find((element)=> element.id === idLogement.id);
+console.log(monLogement);
+return (
+    <div className="pagedescription">
+            <div className="flat">
+                <div className="title"><h1> { monLogement.title }</h1></div> 
+                <div className="location"><p > { monLogement.location }</p></div>
+                <ul className="tag-box">
+            {monLogement.tags.map((tag) => (
+                
+                <li className="tag" key={tag}>{tag}</li>
+                
+            ))
+            
+            }
+            
+        </ul>
             </div>
-            <div className="descEquip">
-                <section className="desc">
-                    <Collapse 
-                        title = {"Description"} 
-                        content = {description} />
-                </section>
-                <section className="equip">
-                    <Collapse 
-                        title = {"Equipements"}
-                        content = {equipments} />
-                </section>
-            </div>
-        </div>
-    )
+    </div> 
+)
 }
 
 export default Description ;

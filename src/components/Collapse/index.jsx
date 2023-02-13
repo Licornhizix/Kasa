@@ -1,4 +1,4 @@
-import React, { useState}from "react";
+import React, { useState }from "react";
 import up from "../../assets/vectorUp.png";
 import down from "../../assets/vectorDown.png";
 
