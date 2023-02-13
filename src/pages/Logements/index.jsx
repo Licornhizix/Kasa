@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from "react";
 import "../../styles/logement.css";
 import "../../styles/description.css"
 import Pictureslide from "../../components/Pictureslide";
@@ -15,7 +15,7 @@ return (
         <div className="logement">
             <Pictureslide/>
             <Description />
-            <Tags />
+            <Tags/> 
             <div className="contentCollapse">
                   {JSON.map ((element) => (
                    <Collapse equip = {element.equipments} />

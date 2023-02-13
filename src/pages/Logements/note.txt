@@ -1,2 +1,3 @@
-07/02/2023> Tenter un console.log sur logement.json pour isoler les tags
+07/02/2023> Tenter un console.log sur logement.json pour isoler les tags>ok
+13/02/2023> Mettre en place les 2 collapses sur la page logement
 
