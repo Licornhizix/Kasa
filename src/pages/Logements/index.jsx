@@ -6,6 +6,7 @@ import Pictureslide from "../../components/Pictureslide";
 import Description from "../../components/Description";
 import Tags from "../../components/Tags";
 import Collapse from "../../components/Collapse";
+import Rate from "../../components/Rate";
 import JSONLogement from "../../JSON/Logement.json";
 
 
@@ -21,6 +22,7 @@ return (
             <Pictureslide/>
             <Description />
             <Tags/> 
+            <Rate/>
             <div className="descEquip">
             <section className="desc">
             <Collapse title = {"Description"} content = { monLogement.description } />

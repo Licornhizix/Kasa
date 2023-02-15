@@ -5,3 +5,6 @@
 16/02/2023>carroussel
 
 
+autres notes : question au mentorat sur l'utilisation des props? M'assurer du respect des consignes du CDC.
+
+
