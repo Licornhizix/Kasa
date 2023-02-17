@@ -1,0 +1,10 @@
+.rate {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rate img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }

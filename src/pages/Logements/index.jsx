@@ -11,10 +11,10 @@ import JSONLogement from "../../JSON/Logement.json";
 
 
 
-function Logements () {
+function Logements ({lograte}) {
     const idLogement = useParams();
     console.log(idLogement.id);
-    const monLogement = JSONLogement.find((element)=> element.id === idLogement.id);
+   const monLogement = JSONLogement.find((element)=> element.id === idLogement.id);
     console.log(monLogement);
 return (
         
