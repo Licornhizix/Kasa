@@ -11,7 +11,7 @@ import JSONLogement from "../../JSON/Logement.json";
 
 
 
-function Logements ({lograte}) {
+function Logements () {
     const idLogement = useParams();
     console.log(idLogement.id);
    const monLogement = JSONLogement.find((element)=> element.id === idLogement.id);
@@ -21,8 +21,9 @@ return (
         <div className="logement">
             <Pictureslide/>
             <Description />
-            <Tags/> 
-            <Rate/>
+            <section className="tagstars"><Tags/> 
+            <Rate/></section>
+            
             <div className="descEquip">
             <section className="desc">
             <Collapse title = {"Description"} content = { monLogement.description } />
