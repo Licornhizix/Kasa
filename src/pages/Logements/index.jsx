@@ -23,7 +23,6 @@ return (
             <Description />
             <section className="tagstars"><Tags/> 
             <Rate/></section>
-            
             <div className="descEquip">
             <section className="desc">
             <Collapse title = {"Description"} content = { monLogement.description } />
