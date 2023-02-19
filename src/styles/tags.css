@@ -16,8 +16,7 @@
     margin-right: 15px;
     padding: 15px;
     margin-top: 15px;
-    width: auto;
-    max-width: 115px;
+    width: fit-content;
     height: 25px;
     border-radius: 10px;
     background-color: #ff6060;

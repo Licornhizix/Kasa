@@ -1,10 +1,6 @@
 import { useParams } from "react-router-dom";
 import "../../styles/logement.css";
-import "../../styles/description.css"
-
-
-
-
+import "../../styles/description.css";
 import JSONLogement from "../../JSON/Logement.json";
 
 function Description () {

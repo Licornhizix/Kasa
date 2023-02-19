@@ -4,7 +4,7 @@ import JSONLogement from "../../JSON/Logement.json"
 import "../../styles/tags.css"
 
 function Tags () {
-  const idLogement = useParams();
+const idLogement = useParams();
 console.log(idLogement.id);
 const monLogement = JSONLogement.find((element)=> element.id === idLogement.id);
 console.log(monLogement);

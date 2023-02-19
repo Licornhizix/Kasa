@@ -1,7 +1,7 @@
 
 
 .pagedescription {
-    margin-top: 50px;
+    
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -30,7 +30,16 @@ flex-direction: column;
     margin-top: 20px;
     margin-right: 600px;
     color: #FF6060;
+    width: 75%;
     
+}
+
+.titlehost {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+
 }
 
 .location {

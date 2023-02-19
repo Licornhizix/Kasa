@@ -7,7 +7,7 @@ import "../../styles/rate.css";
 
 
 const Rate = () =>  {
-	const idLogement = useParams();
+const idLogement = useParams();
 console.log(idLogement.id);
 const monLogement = JSONrate.find((element)=> element.id === idLogement.id);
 console.log(monLogement);

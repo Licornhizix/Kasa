@@ -3,7 +3,17 @@ import up from "../../assets/vectorUp.png";
 import down from "../../assets/vectorDown.png";
 import "../../styles/collapse.css";
 
-
+function intoArray (equip) {
+    return (
+        <ul>
+            {equip.map((equipment) => (
+                <li key= {equipment}>
+                    {equipment}
+                </li>
+            ))}
+        </ul> 
+    )
+}
 
 function Collapse ( { title, content, open } ) {
     const [ active, setActive ] = useState (false);
@@ -31,16 +41,6 @@ function Collapse ( { title, content, open } ) {
     )
 }
 
-function intoArray (equip) {
-    return (
-        <ul>
-            {equip.map((equipment) => (
-                <li key= {equipment}>
-                    {equipment}
-                </li>
-            ))}
-        </ul> 
-    )
-}
+
 
 export default Collapse ;

@@ -2,7 +2,8 @@
 13/02/2023> Mettre en place les 2 collapses sur la page logement>ok
 14/02/2023> Ajouter le rate>ok
 17/02/2023>positionner le rate dans la page logement<ok
-15/02/2023>Ajouter l'image avec le rate (host)
+15/02/2023>Ajouter l'image avec le rate (host)>ok
+18/02/2023>supprimer les erreurs console
 16/02/2023>carroussel
 
 

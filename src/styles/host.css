@@ -1,0 +1,22 @@
+.hosts {
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
+    margin-top: 20px;
+    color: #FF6060;
+    
+}
+
+.hosts section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hosts img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
