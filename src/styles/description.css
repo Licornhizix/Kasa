@@ -9,11 +9,6 @@
 
 }
 
-.card p {
-left: 0;
-
-}
-
 .flat {
 display: flex;
 flex-direction: column;
@@ -48,13 +43,10 @@ justify-content: space-between;
     justify-content: flex-start;
     margin-top: 45px;
     color: #FF6060;
-    
 }
 
 Link{
-
         text-decoration:none;
-
 }
 
 
@@ -76,10 +68,7 @@ Link{
         
     }
     .card2 {
-        /* display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center; */
+
         align-items: flex-start;
     }
 

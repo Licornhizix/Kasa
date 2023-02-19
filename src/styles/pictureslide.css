@@ -20,6 +20,8 @@
     width: 100%; /* taille de l'image à 100% de la largeur du conteneur */
     height: 100%; /* taille de l'image à 100% de la hauteur du conteneur */
     border-radius: 25px;
+    object-fit: cover;
+    /*overflow: hidden;*/
 }
 .arrows-left{
     left: 15px;
