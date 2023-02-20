@@ -13,11 +13,11 @@ const logtitle = monLogement.title;
 const loglocate = monLogement.location;
 return (
     <div className="pagedescription">
-            <div className="flat">
+            
                 <div className="title"><h1> { logtitle }</h1></div> 
                 <div className="location"><p > { loglocate }</p></div>
                 <Tags/>
-            </div>
+            
     </div> 
 )
 }

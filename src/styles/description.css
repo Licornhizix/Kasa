@@ -6,13 +6,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-
-}
-
-.flat {
-display: flex;
 flex-direction: column;
-
 }
 
 .desc, .equip {

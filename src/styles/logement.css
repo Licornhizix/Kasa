@@ -5,7 +5,10 @@
     width: 100%;
     margin: 0 auto;
     margin-bottom: 90px; 
+    position: relative;
 }
+
+
 
 .title {
 display: flex;
@@ -42,7 +45,7 @@ margin-top: 200px;
     justify-content: space-around; 
     margin-bottom: 50px;
     position: relative;
-    bottom: 240px;
+    bottom: 170px;
     
     
 }
@@ -53,24 +56,53 @@ margin-top: 200px;
     .logement {
         padding: 10px 35px;
         max-width: 800px;
+        margin-bottom: 0;
+        flex-grow: 1;
         
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        
+    
+    }
+
+    .location p{
+        font-size: 14px;
+        
+    
     }
 
     .hostars {
         display: flex;
-        align-items:flex-end;
+        align-items: flex-end;;
         flex-direction: row-reverse;
-        justify-content: space-around; 
+        justify-content: space-between; 
         position: relative;
         bottom: 0px;
-        
-        
-    }
+         }
 
+    
     .title {
         display: flex;
         flex-direction: column;
         margin-top: 200px;
-        font-size: 20px;
+        font-size: 200px;
         }
+
+        .title h1{
+            font-size: 18px;
+        }
+
+    .descEquip {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        }
+
 }
