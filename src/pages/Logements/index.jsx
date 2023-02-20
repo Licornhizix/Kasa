@@ -4,7 +4,6 @@ import "../../styles/logement.css";
 import "../../styles/description.css";
 import Pictureslide from "../../components/Pictureslide";
 import Description from "../../components/Description";
-import Tags from "../../components/Tags";
 import Collapse from "../../components/Collapse";
 import Rate from "../../components/Rate";
 import Host from "../../components/Host";
@@ -21,12 +20,11 @@ return (
         
         <div className="logement">
             <Pictureslide/>
-            <div className="titlehost">
             <Description />
+            <section className="hostars">
             <Host />
-            </div>
-            <section className="tagstars"><Tags/> 
-            <Rate/></section>
+            <Rate/>
+            </section>
             <div className="descEquip">
             <section className="desc">
             <Collapse title = {"Description"} content = { monLogement.description } />

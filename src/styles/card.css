@@ -47,7 +47,7 @@
     }
     .card img {
         /* width: 335px; */
-        height: 255px;
+        height: 275px;
     }
 
     .card p {
@@ -55,9 +55,4 @@
         width: 45%;
     }
     
-}
-@media (min-height: 1000px) {
-    .cards {
-        padding-bottom: 200px;
-    }
 }
