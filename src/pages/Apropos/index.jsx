@@ -6,8 +6,6 @@ import JSON from "../../JSON/Apropos.json";
 import "../../styles/apropos.css"
 import "../../styles/collapse.css";
 
-
-
 function Apropos () {
     return (
         <div className="apropos">

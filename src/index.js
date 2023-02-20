@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './pages/Home/index.jsx';
 import Apropos from './pages/Apropos';
 import Home from './pages/Home';
 import Logements from './pages/Logements';
@@ -9,7 +8,7 @@ import Error from './pages/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import "./styles/kasa.css"
+import "./styles/kasa.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

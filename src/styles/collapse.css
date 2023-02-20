@@ -1,5 +1,5 @@
 .collapse p {
-  height: 150px;
+    height: auto;
     opacity: 1;
     background-color: #f6f6f6;
     transition: all ease-in-out;
@@ -10,7 +10,7 @@
     
   }
   .collapse ul {
-    height: 150px;
+    height: auto;
     opacity: 1;
     background-color: #f6f6f6;
     transition: all ease-in-out;
@@ -34,4 +34,13 @@
     margin-bottom: 10px;
   }
 
+
+  @media (max-width: 820px) {
+    .collapse p {
+      margin-bottom: 5%;
+      height: auto;
+        
+      }
+      
+}
   

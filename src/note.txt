@@ -5,16 +5,16 @@
 15/02/2023> Ajouter l'image avec le rate (host)>ok
 18/02/2023> supprimer les erreurs console>ok
 16/02/2023> carroussel>ok
-19/02/2023> Responsive police sur home/sur footer
+19/02/2023> Responsive police sur footer
 
 -centrer les titres sur le rm
 -RM complet sur p logement
 -probleme footer sur p about (il couvre les élémenets inférieurs)
+-probleme responsive en desktop a 100% de zoom. verifier la largeur du carousel.
 
 S'inspirer de la page about en RM
 
-
-
 autres notes : question au mentorat sur l'utilisation des props? M'assurer du respect des consignes du CDC.
 
-
+20/02/2023
+RM adapter les headers
