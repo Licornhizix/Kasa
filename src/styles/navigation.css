@@ -44,3 +44,12 @@
       
   }
 }
+
+@media (max-width: 320px) {
+  .navbar {
+    
+    padding: 10px 20px;
+  
+}
+
+}
