@@ -73,4 +73,10 @@ Link{
     .desc, .equip {
         width: 100%;
     }
+
+    .location {
+        margin-top: 12px;
+}
+        
+    
 }

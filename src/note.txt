@@ -18,3 +18,21 @@ autres notes : question au mentorat sur l'utilisation des props? M'assurer du re
 
 20/02/2023
 RM adapter les headers
+
+adpter footer au RM 
+
+reduire le padding en RM a 20 px sur la divlogement>ok
+agmenter le margin top de la dic class logement à 50px>ok
+réduire la heuteur des li .Tag a 18px>ok
+réduire la heuteur des container collapse  a 30px>ok
+typographie collapse à 13 px et texte intérieur a 12 px>ok
+
+page home, apropos et erreur padding lateral a 20 px>ok
+
+réduire espace en page logement entre le title et la localisation>ok
+dans element .hosts section en RM augmenter espace entre le nom et la photo>ok
+
+
+
+
+
