@@ -11,11 +11,23 @@ function Pictureslide() {
     const idLogement = useParams();
     console.log(idLogement.id);
     const monLogement = JSONpicture.find((element)=> element.id === idLogement.id);
-    console.log(monLogement);
+    //console.log(monLogement);
     const myPicture = monLogement.pictures;
+    //console.log(myPicture.length); 
     const [currentIndex, setCurrentIndex] = useState(0);
     const currentImage = myPicture[currentIndex];
-     console.log(currentImage); 
+    //console.log(myPicture[currentIndex].length);
+    //console.log(currentImage); 
+     
+    if (myPicture.length === 1) {
+      return (
+        <div className="picture-slide">
+          <img className="picture" src={currentImage} alt={currentImage} /> 
+        </div>
+  ) 
+
+      } else {
+
     const prevImage = () => {
     if (currentIndex === 0) {
       setCurrentIndex(myPicture.length - 1);
@@ -50,4 +62,5 @@ function Pictureslide() {
             </div>
     );
   }
+}
   export default Pictureslide;

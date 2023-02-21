@@ -39,7 +39,7 @@ Derniere retouche en responsive mobile et tablette:
 
 Deniere retouche dans le code 👍
 
--faire disparaitre les fleche de pictureslide si une seul image dans la gallerie.
+-faire disparaitre les fleche de pictureslide si une seul image dans la gallerie.>ok
 
 
 
