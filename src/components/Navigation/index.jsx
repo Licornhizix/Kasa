@@ -13,18 +13,11 @@ function Navigation() {
             <div className="nav-links">
                 <NavLink
                     to="/"
-                //     className={({ isActive, notActive }) =>
-                //     "header_Nav_link" + (isActive ? " activated" : "")
-                        
-                // }
                 >
                     Accueil
                 </NavLink>
                 <NavLink
                     to="/apropos"
-                    // className={({ isActive }) =>
-                    // "header_Nav_link" + (isActive ? " activated" : "")
-                    // }
                 >
                     A propos
                 </NavLink>

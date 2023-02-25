@@ -6,7 +6,7 @@ import "../../styles/collapse.css";
 function intoArray (equip) {
     return (
         <ul>
-            {equip.map((equipment) => (
+            {equip.map((equipment) => (//sort une liste des équipements en JSON
                 <li key= {equipment}>
                     {equipment}
                 </li>
