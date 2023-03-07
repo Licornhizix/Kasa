@@ -10,6 +10,7 @@
 
 .welcomeImage {
     position: relative;
+    background-size: cover;
     color: #FFFFFF;
     margin: 50px 0;
     padding: 40px 10px;
@@ -22,7 +23,7 @@
 
 @media (max-width: 820px) {
     .welcomeImage {
-        top: 25px;
+        
         font-size: 25px;
         line-height: 24px;
         width: 248px;

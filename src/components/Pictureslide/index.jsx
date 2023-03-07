@@ -53,12 +53,16 @@ function Pictureslide() {
                 alt = "flèche gauche" 
                  />              
             </div><img className="picture" src={currentImage} alt={currentImage} /> 
+            <div className="position">
+        <p>{currentIndex + 1}/{myPicture.length}</p>
+      </div>
             <div className="arrows-right" onClick={nextImage}>
                 <img className="right"
                 src = {arrowright}
                 alt = "flèche droite" 
                  />
             </div>
+            
             </div>
     );
   }

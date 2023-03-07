@@ -10,14 +10,14 @@ function Navigation() {
             <div className="logo">
                 <img className="logo-img" src= {logoNavigation} alt ="logo" /> 
             </div>
-            <div className="nav-links">
-                <NavLink
-                    to="/"
+            <div className="nav-links" >
+                <NavLink exact to
+                    ="/" activeClassName="active"
                 >
                     Accueil
                 </NavLink>
                 <NavLink
-                    to="/apropos"
+                    to="/apropos" activeClassName="active"
                 >
                     A propos
                 </NavLink>
