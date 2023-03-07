@@ -32,4 +32,10 @@
     }
 }
 
-
+@media (max-width:320px) {
+    .footer {
+        margin-top: 270px;
+        width: 475px;
+        height: 260px;    
+}
+}
